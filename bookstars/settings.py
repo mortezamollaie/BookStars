@@ -39,8 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Third-party app
     'rest_framework',
     'drf_spectacular',
+
+    # My Apps
+    'accounts.apps.AccountsConfig',
+    'authors.apps.AuthorsConfig',
+    'books.apps.BookConfig',
 ]
 
 MIDDLEWARE = [
